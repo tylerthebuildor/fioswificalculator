@@ -1,0 +1,35 @@
+* {
+  -webkit-user-select:none;  /* Disable selection/copy of elements when tapping for a long time */
+  -webkit-touch-callout:none; /* Disable touch callouts */
+}
+
+input {
+  -webkit-user-select:text;  /* Allow selection for input elements */
+}
+
+.content-padded {
+  padding:10px;
+}
+
+form {
+	margin:auto;
+	text-align:center;
+}
+
+form input {
+	text-transform:uppercase;
+}
+
+[name="inputForm"] {
+	background: rgba(0,0,0,0.3);
+	padding-bottom: 3px;
+}
+
+[name="outputForm"].hide {
+	visibility:hidden;
+}
+
+[name="outputForm"].show {
+	visibility:visible;
+}
+

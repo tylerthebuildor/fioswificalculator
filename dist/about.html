@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Steroids App</title>
+
+  <link rel="stylesheet" href="vendor/topcoat/css/topcoat-mobile-light.css" />
+  <link rel="stylesheet" href="stylesheets/application.css" />
+
+  <script src="javascripts/onerror.js"></script>
+  <script src="javascripts/console.log.js"></script>
+
+  <!-- cordova.js is served from localhost to ensure the correct version -->
+  <script src="http://localhost/appgyver/cordova.js"></script>
+  <script src="components/steroids-js/steroids.js"></script>
+
+</head>
+<body>
+  <div class="content-padded">
+
+    <!-- Header -->
+    <h2>FiOS WiFi Calculator</h2>
+    <em>This program can calculate
+        defualt passwords of FiOS routers
+        from the name of the wireless network.</em>
+  </div>
+
+  <!-- About -->
+  <div class="topcoat-list">
+
+    <h3 class="topcoat-list__header">About</h3>
+
+    <ul class="topcoat-list__container">
+
+      <li class="topcoat-list__item">
+        <h3>How can I identify FiOS WiFi?</h3>
+        <p> They can be identified by the structure of their
+        name. They are always five digits long
+        and usually consist of random numbers and
+        letters; example: "M3OV6" or "E3X12".</p>
+      </li>
+
+      <li class="topcoat-list__item">
+        <h3>Why are there two passwords generated?</h3>
+        <p>Because of the way they created the passwords 
+        there will always be two possible passwords. One of which 
+        will be the correct one you are looking for, so try both.</p>
+      </li>
+
+      <li class="topcoat-list__item">
+        <h3>Why can't I connect using the calculated passwords?</h3>
+        <p>First make sure you've typed everything in 
+        correctly zero's may look like O's, ones like L's, 
+        and so on. Copy and paste calculated passwords to avoid 
+        miss types.</p>
+      </li> 
+
+      <li class="topcoat-list__item">
+        <h3>I typed it in right what's wrong?</h3>
+        <p>There could be a few issues. Either your not 
+        connecting to a factory FiOS router, the default password 
+        has been changed, or it is a third generation router.
+        Third generation routers use a different algorithm, rendering this 
+        application useless.</p>
+      </li>
+
+      <li class="topcoat-list__item">
+        <h3>This app is acting weird!</h3>
+        <p>Please send all your bugs and concerns to support.fioswificalculator@buchea.com</p>
+      </li>
+
+    </ul>
+
+  </div>
+
+</body>
+</html>

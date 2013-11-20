@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Steroids App</title>
+
+  <link rel="stylesheet" href="vendor/topcoat/css/topcoat-mobile-light.css" />
+  <link rel="stylesheet" href="stylesheets/application.css" />
+
+  <script src="javascripts/onerror.js"></script>
+  <script src="javascripts/console.log.js"></script>
+
+  <!-- cordova.js is served from localhost to ensure the correct version -->
+  <script src="http://localhost/appgyver/cordova.js"></script>
+  <script src="components/steroids-js/steroids.js"></script>
+  <script src="javascripts/application.js"></script>
+
+</head>
+<body>
+  <!-- Input WiFi Name -->
+  <form name="inputForm" onsubmit="return false;">
+    <input type="text" name="wifiName" class="topcoat-text-input--large" placeholder="WiFi Name" maxlength="5">
+  </form>
+
+  <div class="content-padded">    
+  
+   <!-- Output WiFi Passwords -->
+    <form name="outputForm" class="hide" onsubmit="return false;">
+      <h3>try both passwords</h3>
+      <input type="text" name="pass1" class="topcoat-text-input--large">
+      <input type="text" name="pass2" class="topcoat-text-input--large">
+    </form>
+  
+  </div>
+
+  <!-- Scripts -->
+  <script>
+  app.initialize();
+  </script>
+
+</body>
+</html>
