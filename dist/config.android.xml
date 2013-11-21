@@ -24,10 +24,11 @@
     For most use cases, you are safe to whitelist all domains with the '*' wildcard.
     -->
 
-    <access origin="*"/>
+    <!-- <access origin="*"/> -->
 
     <plugins>
         <plugin name="App" value="org.apache.cordova.App"/>
+        <!--
         <plugin name="Geolocation" value="org.apache.cordova.GeoBroker"/>
         <plugin name="Device" value="org.apache.cordova.Device"/>
         <plugin name="Accelerometer" value="org.apache.cordova.AccelListener"/>
@@ -45,11 +46,15 @@
         <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
         <plugin name="Echo" value="org.apache.cordova.Echo" />
         <plugin name="Globalization" value="org.apache.cordova.Globalization"/>
+        -->
 
         <!-- Built-in AppGyver Scanner plugins -->
+        <!--
         <plugin name="BarcodeScanner" value="com.phonegap.plugins.barcodescanner.BarcodeScanner"/>
         <plugin name="DatePickerPlugin" value="com.phonegap.plugin.DatePickerPlugin"/>
         <plugin name="calendarPlugin" value="com.twist.android.plugins.calendar.CalendarPlugin"/>
         <plugin name="SQLitePlugin" value="com.phonegap.plugin.sqlitePlugin.SQLitePlugin"/>
+        -->
+
     </plugins>
 </cordova>
